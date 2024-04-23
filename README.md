@@ -12,3 +12,7 @@ URL "amqp://guest:guest@localhost:5672" yang sama dalam program penerbit dan pel
 ![Alt text](image/ss2.jpg)
 ![Alt text](image/ss3.jpg)
 Pada saat message broker atau RabbitMQ berjalan, ketika program Subscriber dan Publisher kita jalankan (cargo run), maka Publisher akan mengirimkan data ke message broker dan Subscriber akan menerima data tersebut. Pada gambar di atas, kita dapat melihat bahwa Publisher mengirimkan data sekali ke message broker dan Subscriber menerimanya.
+
+# Monitoring chart based on publisher.
+![Alt text](image/ss5.jpg)
+Dari gambar, terlihat bahwa message rates akan meningkat ketika Publisher mengirimkan data ke message broker. Jika message rates tinggi, maka message broker akan menerima banyak data dari Publisher.
