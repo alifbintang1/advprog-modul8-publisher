@@ -6,3 +6,8 @@ URL "amqp://guest:guest@localhost:5672" yang sama dalam program penerbit dan pel
 
 # Running RabbitMQ as message broker.
 ![Alt text](image/ss1.jpg)
+
+# Sending and processing event.
+![Alt text](image/ss4.jpg)
+![Alt text](image/ss2.jpg)
+![Alt text](image/ss3.jpg)
